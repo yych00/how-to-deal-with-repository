@@ -20,7 +20,7 @@ Learn to upload code and manage the repository.
 
 如果已添加过，先删除：
 
-    git remote remove origin https://github.com/yych00/how-to-deal-with-repository.git
+    git remote remove origin
 
 ### 4. 拉取远程 main 分支，避免推送冲突
     git fetch origin
