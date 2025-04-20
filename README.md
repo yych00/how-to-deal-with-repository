@@ -11,7 +11,7 @@ git init
 git remote add origin https://github.com/yych00/$$$$$$.git
     返回值：error: remote origin already exists. 表明仓库已经存在
 
-# 把当前目录下的所有文件都加入 Git 的暂存区（忽略 .gitignore 中定义的内容）
+# 把当前目录下的文件除了.gitignore都加入 Git 的暂存区
 git add .
 
 # 提交这些变更到本地仓库，写一条提交信息
