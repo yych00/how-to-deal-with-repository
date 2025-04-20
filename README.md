@@ -1,6 +1,8 @@
 # 如何上传单个文件到分支
 单个文件：how-to-deal-with-repository.docx
+
 仓库地址：https://github.com/yych00/how-to-deal-with-repository.git
+
 目标分支：branch-1
 
 ## 本地目录
