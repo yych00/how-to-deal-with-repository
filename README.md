@@ -14,7 +14,11 @@
   
 ## 添加远程仓库（指向 GitHub 上的仓库地址）
     git remote add origin https://github.com/yych00/$$$$$$.git
-返回值：
+返回值：error: remote origin already exists.
+
+## 创建并切换到目标分支 branch-1
+    git checkout -b branch-1
+返回值：fatal: a branch named 'branch-1' already exists
 
 ## 添加 Word 文件
     git add how-to-deal-with-repository.docx
