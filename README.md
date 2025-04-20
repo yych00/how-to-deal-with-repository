@@ -12,7 +12,8 @@ Learn to upload code and manage the repository.
   
 ## 添加远程仓库（指向 GitHub 上的仓库地址）
     git remote add origin https://github.com/yych00/$$$$$$.git
-
+    
+    git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
     
 返回值：error: remote origin already exists. 
 
