@@ -24,9 +24,6 @@
 返回值：
 返回说明：
 
-## 把当前分支改名为 main（Git 默认以前是 master，现在都用 main）
-    git branch -M main
-
 ## 把本地 main 分支推送到远程仓库的 branch-1 分支
     git push -u origin branch-1
 
