@@ -31,7 +31,7 @@ git push -u origin main
 
     情况	                        推荐做法
     远程仓库是空的	                直接   git push -u origin main
-    远程仓库有内容，但你要合并	    先     git pull origin main --allow-unrelated-histories
+    远程仓库有内容，但你要合并	先     git pull origin main --allow-unrelated-histories
     远程仓库内容不需要保留	        直接   git push -f origin main
 
 
