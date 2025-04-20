@@ -3,7 +3,7 @@ Learn to upload code and manage the repository.
 
 cd CMakeList.txt catalog
 
-# 初始化 Git 仓库
+## 初始化 Git 仓库
 git init
     返回值：Reinitialized existing Git repository in E:/$$$$$$/.git/
   
