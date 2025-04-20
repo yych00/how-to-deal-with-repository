@@ -1,6 +1,8 @@
 # 如何管理仓库
 Learn to upload code and manage the repository.
 
+有多个分支可以查看！
+
 ## 上传文件
     cd CMakeList.txt catalog
 
@@ -10,6 +12,8 @@ Learn to upload code and manage the repository.
   
 ## 添加远程仓库（指向 GitHub 上的仓库地址）
     git remote add origin https://github.com/yych00/$$$$$$.git
+
+    
 返回值：error: remote origin already exists. 
 
 表明仓库已经存在
