@@ -16,10 +16,23 @@
 4.1.如果是在 github 上的仓库，克隆远程仓库到本地
     git clone <url>      
     // e.g.  git clone https://github.com/yych00/how-to-deal-with-repository.git
+    这会创建一个以仓库名称命名的文件夹
 4.2.如果是本地仓库，上传到 github 
     git add .
     添加所有文件到暂存区，准备上传
     git commit -m "说明"
-    // e.g.  git commit -m "上传所有本地文件"
+    // e.g.  git commit -m "上传本地仓库"
     提交暂存区内容
     git push
+
+// 示例代码
+# 下载
+git init
+git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
+git clone https://github.com/yych00/how-to-deal-with-repository.git
+# 上传
+git init
+git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
+git add .
+git commit -m "上传本地仓库"
+git push
