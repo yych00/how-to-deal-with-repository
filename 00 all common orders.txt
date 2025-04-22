@@ -1,0 +1,77 @@
+---
+
+```markdown
+# Git 常用命令速查表 🚀
+
+本文档整理了日常开发中最常用的 Git 命令，适用于新手入门和常规项目协作。
+
+---
+
+## 📦 基本操作
+
+```bash
+git init                     # 初始化本地仓库
+git clone <url>             # 克隆远程仓库到本地
+git status                  # 查看当前工作区状态
+git add <file>              # 添加文件到暂存区
+git add .                   # 添加所有改动到暂存区
+git commit -m "说明"        # 提交暂存区内容
+git log                     # 查看提交历史
+```
+
+---
+
+## 🌿 分支管理
+
+```bash
+git branch                  # 查看本地分支
+git branch <name>          # 新建分支
+git checkout <name>        # 切换分支
+git checkout -b <name>     # 新建并切换分支
+git merge <branch>         # 合并其他分支到当前分支
+git branch -d <name>       # 删除分支
+```
+
+---
+
+## ☁️ 远程仓库交互
+
+```bash
+git remote -v                       # 查看远程仓库地址
+git remote add origin <url>        # 添加远程仓库地址
+git push -u origin <branch>        # 第一次推送分支并设置上游
+git push                           # 推送改动
+git pull                           # 拉取远程仓库并合并
+git fetch                          # 获取远程仓库更新（不自动合并）
+```
+
+---
+
+## 🧰 高级操作
+
+```bash
+git stash                          # 暂存当前更改
+git stash pop                      # 恢复暂存的更改
+git reset --hard HEAD              # 丢弃所有本地更改
+git revert <commit-id>            # 撤销某次提交（保留历史）
+git rebase <branch>               # 变基（整理提交历史）
+```
+
+---
+
+## 🔍 常用查看命令
+
+```bash
+git diff                           # 查看未暂存的改动
+git diff --cached                  # 查看已暂存的改动
+git show <commit-id>              # 查看某次提交详情
+```
+
+---
+
+📝 **备注**：如需更深入使用建议，推荐结合 Git 图形化工具（如 Sourcetree、GitHub Desktop）或使用 VS Code 的 Git 集成功能进行操作。
+
+Happy coding! 🎉
+```
+
+---
