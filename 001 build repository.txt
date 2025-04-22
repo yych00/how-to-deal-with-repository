@@ -1,0 +1,23 @@
+建仓指令
+在本地建仓
+1.cd 到目录
+    cd CMakeList.txt catalog
+    这个是本地目录
+2.初始化 Git 仓库
+    git init
+    会在当前目录创建一个 .git 隐藏文件
+    返回值：Reinitialized existing Git repository in E:/$$$$$$/.git/
+    表明已经有 git 仓库了
+3.将本地仓库连接到远程仓库
+    git remote add origin <url>
+    // e.g.  git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
+4.1.如果是在 github 上的仓库，克隆远程仓库到本地
+    git clone <url>      
+    // e.g.  git clone https://github.com/yych00/how-to-deal-with-repository.git
+4.2.如果是本地仓库，上传到 github 
+    git add .
+    添加所有文件到暂存区，准备上传
+    git commit -m "说明"
+    // e.g.  git commit -m "上传所有本地文件"
+    提交暂存区内容
+    git push
