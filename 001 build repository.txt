@@ -11,6 +11,8 @@
 3.将本地仓库连接到远程仓库
     git remote add origin <url>
     // e.g.  git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
+    返回值：error: remote origin already exists.
+    表明已经有远程仓库了
 4.1.如果是在 github 上的仓库，克隆远程仓库到本地
     git clone <url>      
     // e.g.  git clone https://github.com/yych00/how-to-deal-with-repository.git
