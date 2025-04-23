@@ -1,0 +1,17 @@
+# 查找所有分支
+  // 会返回本地所有分支名称，包括选择的分支
+  git branch
+# 查看当前分支
+  // 会返回当前分支名称
+  git checkout
+
+# 切换分支
+  // 两种方式 建议 switch
+  git switch <分支名>
+  git checkout <分支名>
+
+
+// 示例
+git branch
+git checkout
+git switch <branch-receiver>
