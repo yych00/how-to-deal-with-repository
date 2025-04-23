@@ -17,6 +17,8 @@
     git clone <url>      
     // e.g.  git clone https://github.com/yych00/how-to-deal-with-repository.git
     这会创建一个以仓库名称命名的文件夹
+    给本地的仓库一个名字吧
+    git clone <url> <local-repositry-name>
 4.2.如果是本地仓库，上传到 github 
     git add .
     添加所有文件到暂存区，准备上传
