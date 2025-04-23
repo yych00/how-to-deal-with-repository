@@ -34,5 +34,5 @@ git clone https://github.com/yych00/how-to-deal-with-repository.git
 git init
 git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
 git add .
-git commit -m "上传本地仓库"
+git commit -m "上传所有本地仓库"
 git push
