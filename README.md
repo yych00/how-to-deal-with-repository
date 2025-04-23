@@ -1,5 +1,5 @@
 # 如何上传单个文件到分支
-单个文件：how-to-deal-with-repository.docx
+单个文件：temp.txt
 
 仓库地址：https://github.com/yych00/how-to-deal-with-repository.git
 
@@ -20,11 +20,11 @@
     git checkout -b branch-1
 返回值：fatal: a branch named 'branch-1' already exists
 
-## 添加 Word 文件
-    git add how-to-deal-with-repository.docx
+## 添加 temp.txt 文件
+    git add temp.txt
 
 ## 提交这些变更到本地仓库，写一条提交信息
-    git commit -m "Add how-to-deal-with-repository.docx"
+    git commit -m "Add temp.txt"
 返回值：
 返回说明：
 
