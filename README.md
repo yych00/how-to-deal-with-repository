@@ -4,21 +4,21 @@ Learn to upload code and manage the repository.
 有多个分支可以查看！
 
 ### 1.cd到目录
-    cd CMakeList.txt catalog
+    cd <CMakeList.txt catalog>
 
 ### 2.初始化 Git 仓库
     git init
-返回值：Reinitialized existing Git repository in E:/$$$$$$/.git/
+重复建仓返回值：Reinitialized existing Git repository in E:/$$$$$$/.git/
   
 ### 3.添加远程仓库（指向 GitHub 上的仓库地址）
-    git remote add origin https://github.com/yych00/$$$$$$.git
+    git remote add origin <https://github.com/...>
     
     git remote add origin https://github.com/yych00/how-to-deal-with-repository.git
-返回值：error: remote origin already exists. 
+重复添加返回值：error: remote origin already exists. 
 
 表明仓库已经存在
 
-如果已添加过，先删除：
+如果已添加过，可删除：
 
     git remote remove origin
 
@@ -31,11 +31,11 @@ Learn to upload code and manage the repository.
     git add .
 或者添加单个文件
 
-    git add how-to-deal-with-repository-main.docx
+    git add temp.txt
     
 ### 6.提交这些变更到本地仓库，写一条提交信息
     git commit -m "This is a commit message"
-返回值：
+重复提交返回值：
 
 On branch main
 
@@ -58,9 +58,9 @@ nothing to commit, working tree clean
     git push -u origin main
 
     情况	                        推荐做法
-    远程仓库是空的	                git push -u origin main
+    远程仓库是空的                   git push -u origin main
     远程仓库有内容，但你要合并	git pull origin main --allow-unrelated-histories
-    远程仓库内容不需要保留	        git push -f origin main
+    远程仓库内容不需要保留            git push -f origin main
 
 
 
