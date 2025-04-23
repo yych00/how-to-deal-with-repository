@@ -1,0 +1,16 @@
+# 查看当前分支
+  git branch
+  // 选择分支(如果需要)
+  git switch <branch-name>
+
+# 消除远程仓库文件
+  git rm <文件名1> <文件名2>
+
+# 提交前查看状态
+  git status
+  // 如果发现删错了，想回溯
+  git restore --staged <文件名1> <文件名2>
+
+# 提交请求
+  git commit -m '删除了文件'
+  git push
