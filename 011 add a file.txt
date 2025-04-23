@@ -1,0 +1,14 @@
+# 添加本地文件
+  // 上传所有文件
+  git add .
+  // 上传部分文件
+  git add '文件1' '文件2'
+
+# 提交到暂存区
+  git commit -m "上传说明"
+
+# 上传到 github
+  // 简易上传到 main (主分支)
+  git push
+  // 上传到指定分支
+  git push -u origin <分支名>
